@@ -6,6 +6,7 @@ const bodyParser = require("body-parser");
 const mongoose = require('mongoose')
 const app = express();
 const _ = require('lodash')
+require('dotenv').config()
 
 app.set('view engine', 'ejs');
 
@@ -15,7 +16,7 @@ app.use(express.static("public"));
 // const items = ["Buy Food", "Cook Food", "Eat Food"];
 // const workItems = [];
 
-mongoose.connect('mongodb+srv://nnamdinwaocha:Ms5qiPPG6e1KsvdF@cluster0.4pgnimr.mongodb.net/todoListDB'
+mongoose.connect(process.env.MONGO
 )
 const itemsSchema = {
   name: String
