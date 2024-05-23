@@ -16,8 +16,7 @@ app.use(express.static("public"));
 // const items = ["Buy Food", "Cook Food", "Eat Food"];
 // const workItems = [];
 
-mongoose.connect(process.env.MONGO
-)
+mongoose.connect(process.env.MONGO)
 const itemsSchema = {
   name: String
 }
