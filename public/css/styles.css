@@ -1,5 +1,5 @@
 /* styles for phones */
-@media (max-width: 1250px) {
+@media (max-width: 600px) {
   /* ad */
   html {
     background-color: #E4E9FD;
@@ -11,7 +11,7 @@
   h1 {
     color: #fff;
     padding: 1.5rem;
-    font-size: 5rem;
+    font-size: 3rem;
   }
   /* ad */
   .box {
@@ -29,7 +29,7 @@
     display: flex;
     align-items: center;
     border-bottom: 1px solid #F1F1F1;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   
 
@@ -37,7 +37,7 @@
   p {
     margin: 0;
     padding: 20px;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 200;
     color: #00204a;
   }
@@ -58,7 +58,7 @@
     border-color: transparent;
     background-color: #A683E3;
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     padding-bottom: 0px;
     border-width: 0;
   }
@@ -69,9 +69,9 @@
     top: 10px;
     border: none;
     background: transparent;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 200;
-    width: 313px;
+    width: 70%;
   }
   
 
@@ -117,7 +117,7 @@ footer {
 
 }
 
-@media (min-width: 1251px){
+@media (min-width: 601px){
   html {
     background-color: #E4E9FD;
     background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
